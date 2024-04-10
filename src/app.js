@@ -114,13 +114,6 @@ document.querySelector(".btn-lettuce").onclick = function () {
   renderAll();
 };
 
-
-
-
-
-
-
-
 //Challenge 1 - Add/Remove the class active to the buttons based on state
 function renderButtons() {
   for (let ingredient in state) {
